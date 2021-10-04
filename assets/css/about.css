@@ -1,0 +1,100 @@
+.container {
+    margin-top: 10%;
+  }
+  p {
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 20%;
+  }
+  h2 {
+    position: relative;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 5% 20%;
+  }
+  span {
+    font-weight: 700;
+  }
+  .information {
+    display: flex;
+    width: 60%;
+    margin: 15% 20%;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+  img {
+    width: 60%;
+    margin: 0 20%;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+  }
+  body {
+    background: #000;
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", serif;
+    font-size: 12px;
+    line-height: normal;
+    position: absolute;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul.nav-container {
+    width: 100%;
+    position: fixed;
+    padding: 13px 0;
+    margin: 0;
+    line-height: 165%;
+    text-align: center;
+    z-index: 999;
+    background: rgba(0,0,0,0.5);
+  }
+  ul.nav-container li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 0 13px;
+  }
+  ul.nav-container a {
+    color: #fff;
+    width: 100px;
+    position: relative;
+    top: 0;
+    font-family: "Verlag A", "verlag B", sans-serif;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-weight: 900;
+  }
+  
