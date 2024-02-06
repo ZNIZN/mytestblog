@@ -1,38 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T13:27:42.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="uk0Y_iSvQEzMte789Olf" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T13:44:58.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="L_XduoRImsCot0LeBYTL" version="23.1.1" type="github">
   <diagram name="第 1 页" id="f5ulpupAscawbV42hnoZ">
-    <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IABtvT5QV9HdPnawqKWd-9" value="海岸带模型库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="440" y="60" width="190" height="100" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-25" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="710" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-8" value="海岸带数据库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="240" y="60" width="190" height="100" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-24" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="710" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-1" value="图数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="140" width="100" height="50" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-23" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="75" width="620" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-2" value="LLM分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="260" width="100" height="50" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IABtvT5QV9HdPnawqKWd-8" target="IABtvT5QV9HdPnawqKWd-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-3" value="可视化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="380" width="100" height="50" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-32" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-4" value="海岸带数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="100" width="70" height="50" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-1" value="构建图数据库" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-5" value="海岸带数据模型库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="100" width="70" height="50" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-2" value="LLM分析" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-10" value="问题所属领域判断" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-3" value="LLM可视化" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-10" value="问题所属领域判断" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="240" y="230" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-7" value="问题文本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-7" value="问题文本" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="250" y="260" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-11" value="问答记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-11" value="问答记录" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="340" y="260" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-12" value="生成图数据库查询语句" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-13" value="匹配相关海岸带模型" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-14" value="图数据库查询语句" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-15" value="查询结果判断" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-16" value="查询内容能否满足用户需求" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-18" value="可视化方案设计" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-19" value="问题文本" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-21" value="可视化代码生成" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-22" value="问题文本" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="460" y="430" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-28" value="海岸带数据与模型图数据库" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="424" y="85" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="557" y="85" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-9" value="海岸带模型库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-34">
+          <mxGeometry width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-33" value="" style="group" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-34">
+          <mxGeometry x="10" y="40" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-5" value="模型编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-33">
+          <mxGeometry x="80" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-27" value="模型分类" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-33">
+          <mxGeometry width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-29" value="模型参数编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-33">
+          <mxGeometry x="160" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IABtvT5QV9HdPnawqKWd-9" target="IABtvT5QV9HdPnawqKWd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-37" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="85" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-8" value="海岸带数据库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-39">
+          <mxGeometry width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-4" value="数据编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-39">
+          <mxGeometry x="90" y="40" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-26" value="数据分类" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-39">
+          <mxGeometry x="10" y="40" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
