@@ -1,111 +1,246 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T13:44:58.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="L_XduoRImsCot0LeBYTL" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T18:08:44.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="F_M2TceLwBUKYseaEKxn" version="23.1.1" type="github">
   <diagram name="第 1 页" id="f5ulpupAscawbV42hnoZ">
-    <mxGraphModel dx="1188" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IABtvT5QV9HdPnawqKWd-25" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="200" y="380" width="710" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-24" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="200" y="220" width="710" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-23" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="200" y="75" width="620" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IABtvT5QV9HdPnawqKWd-8" target="IABtvT5QV9HdPnawqKWd-28">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IABtvT5QV9HdPnawqKWd-2" target="IABtvT5QV9HdPnawqKWd-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-32" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-31">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-86" value="数据库查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-85">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-1" value="构建图数据库" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="70" y="110" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-2" value="LLM分析" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="70" y="260" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-3" value="LLM可视化" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="70" y="380" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-10" value="问题所属领域判断" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="240" y="230" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-7" value="问题文本" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="250" y="260" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-11" value="问答记录" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="340" y="260" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-12" value="生成图数据库查询语句" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="450" y="230" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-13" value="匹配相关海岸带模型" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="460" y="260" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-14" value="图数据库查询语句" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="550" y="260" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-15" value="查询结果判断" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="660" y="230" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-16" value="查询内容能否满足用户需求" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="670" y="260" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-18" value="可视化方案设计" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-19" value="问题文本" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="250" y="430" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-21" value="可视化代码生成" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="450" y="400" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-22" value="问题文本" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="460" y="430" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-28" value="海岸带数据与模型图数据库" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="424" y="85" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-34" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="557" y="85" width="250" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-9" value="海岸带模型库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-34">
-          <mxGeometry width="250" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-33" value="" style="group" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-34">
-          <mxGeometry x="10" y="40" width="230" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-5" value="模型编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-33">
-          <mxGeometry x="80" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-27" value="模型分类" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-33">
-          <mxGeometry width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-29" value="模型参数编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-33">
-          <mxGeometry x="160" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IABtvT5QV9HdPnawqKWd-9" target="IABtvT5QV9HdPnawqKWd-28">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IABtvT5QV9HdPnawqKWd-2" target="IABtvT5QV9HdPnawqKWd-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-37" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-35">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-88" value="模型计算结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-87">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-39" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="220" y="85" width="170" height="100" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-98" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="41" y="631" width="750" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-8" value="海岸带数据库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-39">
+        <mxCell id="IABtvT5QV9HdPnawqKWd-25" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-98">
+          <mxGeometry x="130" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="IABtvT5QV9HdPnawqKWd-98" source="IABtvT5QV9HdPnawqKWd-3" target="IABtvT5QV9HdPnawqKWd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-3" value="LLM可视化" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-98">
+          <mxGeometry width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-78" value="前端可视化" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;flipH=0;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-98">
+          <mxGeometry x="603" y="10" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-92" value="" style="group;flipH=0;" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-98">
+          <mxGeometry x="371" y="10" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-21" value="可视化代码生成Prompt" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-92">
           <mxGeometry width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-4" value="数据编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-39">
-          <mxGeometry x="90" y="40" width="70" height="50" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-22" value="输出案例" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-92">
+          <mxGeometry x="10.5" y="38" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IABtvT5QV9HdPnawqKWd-26" value="数据分类" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-39">
-          <mxGeometry x="10" y="40" width="70" height="50" as="geometry" />
+        <mxCell id="IABtvT5QV9HdPnawqKWd-76" value="输出格式" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-92">
+          <mxGeometry x="89.5" y="38" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-93" value="" style="group;flipH=0;" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-98">
+          <mxGeometry x="146.5" y="10" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-18" value="可视化方案判断Prompt" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-93">
+          <mxGeometry width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-19" value="可视化方案库" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-93">
+          <mxGeometry x="90" y="38" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-77" value="模型计算结果数据" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-93">
+          <mxGeometry x="10" y="38" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IABtvT5QV9HdPnawqKWd-98" source="IABtvT5QV9HdPnawqKWd-18" target="IABtvT5QV9HdPnawqKWd-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.3333333333335" y="60.333333333333485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-96" value="方案选择" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IABtvT5QV9HdPnawqKWd-98" source="IABtvT5QV9HdPnawqKWd-21" target="IABtvT5QV9HdPnawqKWd-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-97" value="可视化代码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-99" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="41" y="218" width="750" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-24" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="130" width="620" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="IABtvT5QV9HdPnawqKWd-99" source="IABtvT5QV9HdPnawqKWd-2" target="IABtvT5QV9HdPnawqKWd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-2" value="LLM分析" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry y="135" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-49" value="海岸带数据与模型图数据库" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="588.5" y="242.5" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-63" value="模型计算结果" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="171.5" y="207.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-10" value="问题领域判断Prompt" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="146.5" y="12.5" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-7" value="用户问题文本" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="156.5" y="54.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-11" value="用户问答记录" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="236.5" y="54.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-41" value="研究领域、研究方向库" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="196.5" y="114.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-12" value="海岸带模型匹配Prompt" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="355" y="12.5" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IABtvT5QV9HdPnawqKWd-99" source="IABtvT5QV9HdPnawqKWd-10" target="IABtvT5QV9HdPnawqKWd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-13" value="问题描述" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="365" y="54.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-14" value="角色设定" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="445" y="54.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-44" value="已有模型清单" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="365" y="114.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-45" value="输出案例" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="445" y="114.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IABtvT5QV9HdPnawqKWd-99" source="IABtvT5QV9HdPnawqKWd-15" target="IABtvT5QV9HdPnawqKWd-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-69" value="图数据库查询语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-15" value="图数据库查询Prompt" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="563.5" y="12.5" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IABtvT5QV9HdPnawqKWd-99" source="IABtvT5QV9HdPnawqKWd-12" target="IABtvT5QV9HdPnawqKWd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-16" value="海岸带模型名称" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="573.5" y="54.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-46" value="参数设定" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="654.5" y="54.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-47" value="输出格式" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="654.5" y="117.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-48" value="输出案例" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="573.5" y="117.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IABtvT5QV9HdPnawqKWd-99" source="IABtvT5QV9HdPnawqKWd-49" target="IABtvT5QV9HdPnawqKWd-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-71" value="输入数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IABtvT5QV9HdPnawqKWd-99" source="IABtvT5QV9HdPnawqKWd-58" target="IABtvT5QV9HdPnawqKWd-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-68" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-58" value="数据选择结果判断Prompt" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="355" y="207.5" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-59" value="数据选择结果" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="365" y="249.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-60" value="模型选择结果" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="446" y="249.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-62" value="模型参数设定结果" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="405" y="312.5" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-73" value="返回错误日志" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-99">
+          <mxGeometry x="171.5" y="307.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IABtvT5QV9HdPnawqKWd-99" source="IABtvT5QV9HdPnawqKWd-58" target="IABtvT5QV9HdPnawqKWd-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-75" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-101" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="41" y="75" width="750" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-23" value="" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="130" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="IABtvT5QV9HdPnawqKWd-101" source="IABtvT5QV9HdPnawqKWd-1" target="IABtvT5QV9HdPnawqKWd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-1" value="构建图数据库" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-28" value="海岸带数据与模型图数据库" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="362.5" y="10" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;spacing=7;" edge="1" parent="IABtvT5QV9HdPnawqKWd-101" source="IABtvT5QV9HdPnawqKWd-9" target="IABtvT5QV9HdPnawqKWd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-37" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacing=7;" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-8" value="海岸带数据库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="146.5" y="10" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;spacing=7;" edge="1" parent="IABtvT5QV9HdPnawqKWd-101" source="IABtvT5QV9HdPnawqKWd-8" target="IABtvT5QV9HdPnawqKWd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-32" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacing=7;" vertex="1" connectable="0" parent="IABtvT5QV9HdPnawqKWd-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-4" value="数据编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="236.5" y="50" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-26" value="数据分类" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="156.5" y="50" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-9" value="海岸带模型库构建" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="483.5" y="10" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-5" value="模型编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="573.5" y="50" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-27" value="模型分类" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="493.5" y="50" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IABtvT5QV9HdPnawqKWd-29" value="模型参数编码" style="rounded=0;whiteSpace=wrap;html=1;spacing=7;" vertex="1" parent="IABtvT5QV9HdPnawqKWd-101">
+          <mxGeometry x="653.5" y="50" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
